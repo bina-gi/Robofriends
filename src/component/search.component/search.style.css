@@ -1,0 +1,9 @@
+.search-box {
+  width: 300px;
+  font-size: 18px;
+  line-height: 55px;
+  outline: lightseagreen;
+  border: none;
+  margin-bottom: 30px;
+  background-color: lightblue;
+}

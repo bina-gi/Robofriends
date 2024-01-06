@@ -1,0 +1,16 @@
+.card {
+  display: inline-block;
+  background-color: rgb(8, 234, 234);
+  border: 1px solid grey;
+  padding: 20px;
+  cursor: pointer;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px 10px;
+}
+.card:hover {
+  transform: scale(1.05);
+}
